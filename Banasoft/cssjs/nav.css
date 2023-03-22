@@ -1,0 +1,15 @@
+ .Ilv {
+  height: 500px;/*Altura da linha*/
+  border-left: 1px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+div.Icenter {
+	text-align: center;
+	}
+		.blink_me {
+			animation: blinker 3s linear infinite;
+		}
+		@keyframes blinker {
+			50% {
+				opacity: 0;
+			}
+		}
